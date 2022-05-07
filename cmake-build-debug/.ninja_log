@@ -1,0 +1,12 @@
+# ninja log v5
+1	196	6736365771637223	build.ninja	695c6a77ed105883
+1	174	6735470765132089	CMakeFiles/alx_c.dir/default_file.c.obj	6efff41a19e1bb53
+0	73	6735656893024904	CMakeFiles/malloc_create_string.dir/malloc_create_string.c.obj	2943065a0cfa8392
+2	87	6735483056048353	CMakeFiles/alx_c.dir/malloc_lesson.c.obj	bea2894b73940a7c
+67	155	6735657105040437	malloc_lesson.exe	15d420bcd4cc3079
+1	67	6735657104198654	CMakeFiles/malloc_lesson.dir/malloc_lesson.c.obj	37483c005e4e04c6
+1	87	6735649316559162	CMakeFiles/malloc_exercise_2.dir/malloc_exercise_2.c.obj	960e08e09a101bcb
+87	179	6735649317490323	malloc_exercise_2.exe	3a1f5e13e01cc721
+74	158	6735656893842662	malloc_create_string.exe	d2301c8743808c1c
+1	73	6735669200208932	CMakeFiles/free_malloc.dir/free_malloc.c.obj	2afcc412928068ee
+73	156	6735669201014422	free_malloc.exe	d37973a90e49276d
