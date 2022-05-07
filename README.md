@@ -1,0 +1,1 @@
+This repo contains the practice modules for alx_c from clion ide.
