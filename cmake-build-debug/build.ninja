@@ -238,6 +238,39 @@ build strdup.exe: C_EXECUTABLE_LINKER__strdup_Debug CMakeFiles/strdup.dir/strdup
   TARGET_IMPLIB = libstrdup.dll.a
   TARGET_PDB = strdup.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target macros
+
+
+#############################################
+# Order-only phony target for macros
+
+build cmake_object_order_depends_target_macros: phony || CMakeFiles/macros.dir
+
+build CMakeFiles/macros.dir/macros.c.obj: C_COMPILER__macros_Debug C$:/Users/billy/CLionProjects/alx_c/macros.c || cmake_object_order_depends_target_macros
+  DEP_FILE = CMakeFiles\macros.dir\macros.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\macros.dir
+  OBJECT_FILE_DIR = CMakeFiles\macros.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target macros
+
+
+#############################################
+# Link the executable macros.exe
+
+build macros.exe: C_EXECUTABLE_LINKER__macros_Debug CMakeFiles/macros.dir/macros.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\macros.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = macros.exe
+  TARGET_IMPLIB = libmacros.dll.a
+  TARGET_PDB = macros.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -268,6 +301,8 @@ build array_of_characters: phony array_of_characters.exe
 
 build free_malloc: phony free_malloc.exe
 
+build macros: phony macros.exe
+
 build malloc_create_string: phony malloc_create_string.exe
 
 build malloc_exercise_2: phony malloc_exercise_2.exe
@@ -284,7 +319,7 @@ build strdup: phony strdup.exe
 #############################################
 # Folder: C:/Users/billy/CLionProjects/alx_c/cmake-build-debug
 
-build all: phony malloc_lesson.exe malloc_exercise_2.exe malloc_create_string.exe free_malloc.exe array_of_characters.exe strdup.exe
+build all: phony malloc_lesson.exe malloc_exercise_2.exe malloc_create_string.exe free_malloc.exe array_of_characters.exe strdup.exe macros.exe
 
 # =============================================================================
 # Built-in targets
