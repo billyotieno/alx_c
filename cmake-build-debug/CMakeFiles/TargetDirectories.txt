@@ -5,5 +5,7 @@ C:/Users/billy/CLionProjects/alx_c/cmake-build-debug/CMakeFiles/free_malloc.dir
 C:/Users/billy/CLionProjects/alx_c/cmake-build-debug/CMakeFiles/array_of_characters.dir
 C:/Users/billy/CLionProjects/alx_c/cmake-build-debug/CMakeFiles/strdup.dir
 C:/Users/billy/CLionProjects/alx_c/cmake-build-debug/CMakeFiles/macros.dir
+C:/Users/billy/CLionProjects/alx_c/cmake-build-debug/CMakeFiles/function_pointers.dir
+C:/Users/billy/CLionProjects/alx_c/cmake-build-debug/CMakeFiles/function_pointer_switch.dir
 C:/Users/billy/CLionProjects/alx_c/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/billy/CLionProjects/alx_c/cmake-build-debug/CMakeFiles/rebuild_cache.dir

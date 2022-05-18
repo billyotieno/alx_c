@@ -271,6 +271,72 @@ build macros.exe: C_EXECUTABLE_LINKER__macros_Debug CMakeFiles/macros.dir/macros
   TARGET_IMPLIB = libmacros.dll.a
   TARGET_PDB = macros.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target function_pointers
+
+
+#############################################
+# Order-only phony target for function_pointers
+
+build cmake_object_order_depends_target_function_pointers: phony || CMakeFiles/function_pointers.dir
+
+build CMakeFiles/function_pointers.dir/function_pointers.c.obj: C_COMPILER__function_pointers_Debug C$:/Users/billy/CLionProjects/alx_c/function_pointers.c || cmake_object_order_depends_target_function_pointers
+  DEP_FILE = CMakeFiles\function_pointers.dir\function_pointers.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\function_pointers.dir
+  OBJECT_FILE_DIR = CMakeFiles\function_pointers.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target function_pointers
+
+
+#############################################
+# Link the executable function_pointers.exe
+
+build function_pointers.exe: C_EXECUTABLE_LINKER__function_pointers_Debug CMakeFiles/function_pointers.dir/function_pointers.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\function_pointers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = function_pointers.exe
+  TARGET_IMPLIB = libfunction_pointers.dll.a
+  TARGET_PDB = function_pointers.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target function_pointer_switch
+
+
+#############################################
+# Order-only phony target for function_pointer_switch
+
+build cmake_object_order_depends_target_function_pointer_switch: phony || CMakeFiles/function_pointer_switch.dir
+
+build CMakeFiles/function_pointer_switch.dir/function_pointer_switch.c.obj: C_COMPILER__function_pointer_switch_Debug C$:/Users/billy/CLionProjects/alx_c/function_pointer_switch.c || cmake_object_order_depends_target_function_pointer_switch
+  DEP_FILE = CMakeFiles\function_pointer_switch.dir\function_pointer_switch.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\function_pointer_switch.dir
+  OBJECT_FILE_DIR = CMakeFiles\function_pointer_switch.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target function_pointer_switch
+
+
+#############################################
+# Link the executable function_pointer_switch.exe
+
+build function_pointer_switch.exe: C_EXECUTABLE_LINKER__function_pointer_switch_Debug CMakeFiles/function_pointer_switch.dir/function_pointer_switch.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\function_pointer_switch.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = function_pointer_switch.exe
+  TARGET_IMPLIB = libfunction_pointer_switch.dll.a
+  TARGET_PDB = function_pointer_switch.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -301,6 +367,10 @@ build array_of_characters: phony array_of_characters.exe
 
 build free_malloc: phony free_malloc.exe
 
+build function_pointer_switch: phony function_pointer_switch.exe
+
+build function_pointers: phony function_pointers.exe
+
 build macros: phony macros.exe
 
 build malloc_create_string: phony malloc_create_string.exe
@@ -319,7 +389,7 @@ build strdup: phony strdup.exe
 #############################################
 # Folder: C:/Users/billy/CLionProjects/alx_c/cmake-build-debug
 
-build all: phony malloc_lesson.exe malloc_exercise_2.exe malloc_create_string.exe free_malloc.exe array_of_characters.exe strdup.exe macros.exe
+build all: phony malloc_lesson.exe malloc_exercise_2.exe malloc_create_string.exe free_malloc.exe array_of_characters.exe strdup.exe macros.exe function_pointers.exe function_pointer_switch.exe
 
 # =============================================================================
 # Built-in targets
