@@ -8,5 +8,6 @@ C:/Users/billy/CLionProjects/alx_c/cmake-build-debug/CMakeFiles/macros.dir
 C:/Users/billy/CLionProjects/alx_c/cmake-build-debug/CMakeFiles/function_pointers.dir
 C:/Users/billy/CLionProjects/alx_c/cmake-build-debug/CMakeFiles/function_pointer_switch.dir
 C:/Users/billy/CLionProjects/alx_c/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/billy/CLionProjects/alx_c/cmake-build-debug/CMakeFiles/file_read.dir
 C:/Users/billy/CLionProjects/alx_c/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/billy/CLionProjects/alx_c/cmake-build-debug/CMakeFiles/rebuild_cache.dir

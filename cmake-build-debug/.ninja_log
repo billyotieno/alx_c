@@ -1,5 +1,5 @@
 # ninja log v5
-1	196	6748748162855232	build.ninja	695c6a77ed105883
+1	196	6759035512210945	build.ninja	695c6a77ed105883
 1	174	6735470765132089	CMakeFiles/alx_c.dir/default_file.c.obj	6efff41a19e1bb53
 0	73	6735656893024904	CMakeFiles/malloc_create_string.dir/malloc_create_string.c.obj	2943065a0cfa8392
 2	87	6735483056048353	CMakeFiles/alx_c.dir/malloc_lesson.c.obj	bea2894b73940a7c
@@ -18,3 +18,5 @@
 90	207	6745222890473739	function_pointer_switch.exe	ebf8aaaa866475c
 0	233	6748730987823907	CMakeFiles/tests.dir/Custom_PrintF/tests.c.obj	c074e17c8d43071
 0	123	6748746375561167	CMakeFiles/main.dir/Custom_Print/main.c.obj	307b6591db86e3cd
+0	224	6759035582258879	CMakeFiles/file_read.dir/File_IO/file_read.c.obj	1f07cce0b0e7e6d
+224	490	6759035584872457	file_read.exe	c6cc20fb496257f9

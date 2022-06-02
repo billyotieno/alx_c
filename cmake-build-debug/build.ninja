@@ -370,6 +370,39 @@ build main.exe: C_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/Custom_Print
   TARGET_IMPLIB = libmain.dll.a
   TARGET_PDB = main.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target file_read
+
+
+#############################################
+# Order-only phony target for file_read
+
+build cmake_object_order_depends_target_file_read: phony || CMakeFiles/file_read.dir
+
+build CMakeFiles/file_read.dir/File_IO/file_read.c.obj: C_COMPILER__file_read_Debug C$:/Users/billy/CLionProjects/alx_c/File$ IO/file_read.c || cmake_object_order_depends_target_file_read
+  DEP_FILE = CMakeFiles\file_read.dir\File_IO\file_read.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\file_read.dir
+  OBJECT_FILE_DIR = CMakeFiles\file_read.dir\File_IO
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target file_read
+
+
+#############################################
+# Link the executable file_read.exe
+
+build file_read.exe: C_EXECUTABLE_LINKER__file_read_Debug CMakeFiles/file_read.dir/File_IO/file_read.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\file_read.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = file_read.exe
+  TARGET_IMPLIB = libfile_read.dll.a
+  TARGET_PDB = file_read.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -398,6 +431,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build array_of_characters: phony array_of_characters.exe
 
+build file_read: phony file_read.exe
+
 build free_malloc: phony free_malloc.exe
 
 build function_pointer_switch: phony function_pointer_switch.exe
@@ -424,7 +459,7 @@ build strdup: phony strdup.exe
 #############################################
 # Folder: C:/Users/billy/CLionProjects/alx_c/cmake-build-debug
 
-build all: phony malloc_lesson.exe malloc_exercise_2.exe malloc_create_string.exe free_malloc.exe array_of_characters.exe strdup.exe macros.exe function_pointers.exe function_pointer_switch.exe main.exe
+build all: phony malloc_lesson.exe malloc_exercise_2.exe malloc_create_string.exe free_malloc.exe array_of_characters.exe strdup.exe macros.exe function_pointers.exe function_pointer_switch.exe main.exe file_read.exe
 
 # =============================================================================
 # Built-in targets
