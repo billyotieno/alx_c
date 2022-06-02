@@ -1,5 +1,5 @@
 # ninja log v5
-1	196	6745218102753426	build.ninja	695c6a77ed105883
+1	196	6748748162855232	build.ninja	695c6a77ed105883
 1	174	6735470765132089	CMakeFiles/alx_c.dir/default_file.c.obj	6efff41a19e1bb53
 0	73	6735656893024904	CMakeFiles/malloc_create_string.dir/malloc_create_string.c.obj	2943065a0cfa8392
 2	87	6735483056048353	CMakeFiles/alx_c.dir/malloc_lesson.c.obj	bea2894b73940a7c
@@ -11,10 +11,10 @@
 1	73	6735669200208932	CMakeFiles/free_malloc.dir/free_malloc.c.obj	2afcc412928068ee
 73	156	6735669201014422	free_malloc.exe	d37973a90e49276d
 1	99	6740846505536823	CMakeFiles/macros.dir/macros.c.obj	c0e688bfcd38f637
+2	90	6745222889352264	CMakeFiles/function_pointer_switch.dir/function_pointer_switch.c.obj	791caa5e1dc9482b
 100	219	6740846506687678	macros.exe	adefbd8c6072b399
 2	89	6745210876336691	CMakeFiles/function_pointers.dir/function_pointers.c.obj	dbb845aa7ff06140
 89	199	6745210877393856	function_pointers.exe	e9cc51ebbc8b46a5
-0	98	6745218167604861	CMakeFiles/function_pointer_switch.dir/function_pointer_switch.c.obj	791caa5e1dc9482b
-98	237	6745218168962964	function_pointer_switch.exe	ebf8aaaa866475c
-2	90	6745222889352264	CMakeFiles/function_pointer_switch.dir/function_pointer_switch.c.obj	791caa5e1dc9482b
 90	207	6745222890473739	function_pointer_switch.exe	ebf8aaaa866475c
+0	233	6748730987823907	CMakeFiles/tests.dir/Custom_PrintF/tests.c.obj	c074e17c8d43071
+0	123	6748746375561167	CMakeFiles/main.dir/Custom_Print/main.c.obj	307b6591db86e3cd
