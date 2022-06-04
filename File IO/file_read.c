@@ -20,6 +20,7 @@ int main(int argc, char *argv[]){
         exit(1);
     }
 
+    // write function
     write(fd, "Hello World! \n", 14);
 
     close(fd);
